@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Criptografia Assimétrica</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Gerando as chaves</h2>
+    <button id="gerarChaves">Gerar Chaves</button><br>
+    <p>Chave Publica:</p>
+    <textarea name="" id="chave_publica" cols="70" rows="7" placeholder="Chave Publica"></textarea> <br>
+    <p>Chave Privada:</p>
+    <textarea name="" id="chave_privada" cols="70" rows="7" placeholder="Chave Privada"></textarea>
+    <br><br><br>
+
+    <hr>
+
+    <h2>Criptografando</h2>
+    <p>Mensagem:</p>
+    <textarea name="" id="msg" cols="50" rows="5"></textarea>
+    <p>Passar chave publica:</p>
+    <textarea name="" id="passando_chave_publica" cols="70" rows="7"></textarea>
+    <button id="btnCripto">Criptografar</button>
+    <hr>
+
+    <h2>Descriptografando</h2>
+    <p>Mensagem Criptografada:</p>
+    <textarea name="" id="mensagem_cripto" cols="50" rows="5"></textarea>
+    <p>Passar chave privada:</p>
+    <textarea name="" id="passando_chave_privada" cols="70" rows="7"></textarea>
+    <button id="btnDescripto">Descriptografar</button>
+    <br>
+    <p>Menssagem Descriptografada:</p>
+    <textarea name="" id="mensagem_descripto" cols="50" rows="5"></textarea>
+</body>
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</html>

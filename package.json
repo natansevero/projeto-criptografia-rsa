@@ -1,0 +1,18 @@
+{
+  "name": "projeto-criptografia-assimetrica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Natan Severo",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "ejs": "^2.5.7",
+    "express": "^4.16.1",
+    "ursa": "^0.9.4"
+  }
+}
